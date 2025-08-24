@@ -23,7 +23,7 @@ export const ServicePage = () => {
   //   });
   // };
   return (
-    <div className="mt-12 md:mt-24">
+    <div className="mt-12 md:mt-24 pb-20">
       <Container className={""}>
         <div className="">
           <div>
