@@ -12,28 +12,28 @@ export const MainPages = () => {
 
     tl.fromTo(
       ".logo",
-      { y: -40, opacity: 0, duration: 0.2, ease: "none" },
-      { y: 0, opacity: 100, ease: "none", delay: 0.1 }
+      { y: -40, opacity: 0,  ease: "none" },
+      { y: 0, opacity: 100, ease: "none",  }
     );
     tl.fromTo(
       ".links",
-      { y: -40, opacity: 0, duration: 0.2, ease: "none" },
-      { y: 0, opacity: 100, stagger: 0.1, ease: "none", delay: 0.1 }
+      { y: -40, opacity: 0,  ease: "none" },
+      { y: 0, opacity: 100, stagger: 0.1, ease: "none",  }
     );
     tl.fromTo(
       ".pageOneRight",
-      { x: -100, opacity: 0, duration: 0.2, ease: "none" },
-      { x: 0, opacity: 100, ease: "none", delay: 0.1 }
+      { x: -100, opacity: 0,  ease: "none" },
+      { x: 0, opacity: 100, ease: "none",  }
     );
     tl.fromTo(
       ".pageOneLeft",
-      { x: 100, opacity: 0, duration: 0.2, ease: "none" },
-      { x: 0, opacity: 100, ease: "none", delay: 0.1 }
+      { x: 100, opacity: 0,  ease: "none" },
+      { x: 0, opacity: 100, ease: "none", }
     );
     tl.fromTo(
       ".links-2",
-      { y: -40, opacity: 0, duration: 0.2, ease: "none" },
-      { y: 0, opacity: 100, stagger: 0.1, ease: "none", delay: 0.1 }
+      { y: -40, opacity: 0, ease: "none" },
+      { y: 0, opacity: 100, stagger: 0.1, ease: "none", }
     );
     // scroll anime
     tl.fromTo(
