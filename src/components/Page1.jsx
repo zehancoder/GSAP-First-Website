@@ -11,7 +11,7 @@ export const PageOne = () => {
   ];
 
   return (
-    <div className="lg:px-3 px-4">
+    <div className="">
       <Container>
         <div className="flex lg:flex-row flex-col items-center gap-3 justify-between mt-6 md:mt-14 lg:mt-20 py-7">
           <div className="w-full lg:w-[45%] lg:px-0 px-4 pageOneRight">

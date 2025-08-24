@@ -1,7 +1,5 @@
 import { Container } from "./Container";
 import { FaArrowRight } from "react-icons/fa";
-import gsap from "gsap";
-import { useState } from "react";
 export const ServicePage = () => {
   // const [animeOn, setAnimeOn] = useState(false);
   // const handleAnime = (dets) => {

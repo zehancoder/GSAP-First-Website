@@ -8,6 +8,7 @@
 }
 body {
   background-color: rgba(243, 243, 243, 0.966);
+  visibility: hidden;
 }
 
 

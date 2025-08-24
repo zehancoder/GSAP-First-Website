@@ -9,7 +9,7 @@ export const MainPages = () => {
   // gsap codes
   useEffect(() => {
     const tl = gsap.timeline();
-
+    gsap.from("body", {visibility: "visible"})
     tl.fromTo(
       ".logo",
       { y: -40, opacity: 0,  ease: "none" },
