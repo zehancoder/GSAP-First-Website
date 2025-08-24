@@ -24,8 +24,8 @@ export const ServicePage = () => {
   // };
   return (
     <div className="mt-12 md:mt-24">
-      <Container>
-        <div className="h-screen">
+      <Container className={""}>
+        <div className="">
           <div>
             <div className="flex md:flex-row flex-col items-start md:items-center gap-4 md:gap-8 scrollText">
               <h1 className="text-xl md:2xl lg:text-4xl font-extrabold text-black bg-[#b8f55c] px-2 p-1 rounded-md">
@@ -96,7 +96,7 @@ export const ServicePage = () => {
                 </div>
               </div>
             </div>
-            <div className="py-7 mt-12 md:py-12">
+            <div className="mt-7">
               <div className="flex lg:flex-row flex-col items-center justify-between">
                 {/* box3 */}
                 <div className="page2Div3  w-full customShadow2  bg-gray-800 small:w-[500px] relative md:h-auto h-72 lg:w-[47%]   flex md:flex-row flex-col items-center md:justify-between   p-5 md:p-7 lg:p-10 rounded-2xl ">

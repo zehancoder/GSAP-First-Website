@@ -130,8 +130,10 @@ export const MainPages = () => {
 
   return (
     <>
-      <PageOne />
-      <ServicePage />
+      <div className="overflow-hidden">
+        <PageOne />
+        <ServicePage />
+      </div>
     </>
   );
 };
