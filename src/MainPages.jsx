@@ -3,6 +3,8 @@ import { ServicePage } from "./components/Page2";
 import { useEffect } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
+import { Page3 } from "./components/Page3";
+import { Footer } from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 export const MainPages = () => {
@@ -126,6 +128,60 @@ export const MainPages = () => {
         },
       }
     );
+    // page 3 animation
+    gsap.fromTo(".page3Animate", {
+      y: 100,
+      opacity: 0,
+      duration: 0.5,
+
+    },
+    {
+      y: 0,
+      opacity: 100,
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".page3Animate",
+        start: "top 100%",
+        end: "bottom 90%",
+        scrub: 2
+      }
+    }
+    );
+    gsap.fromTo(".footerText", {
+      y: 100,
+      opacity: 0,
+      duration: 0.5,
+
+    },
+    {
+      y: 0,
+      opacity: 100,
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".footerText",
+        start: "top 100%",
+        end: "bottom 80%",
+        scrub: 2
+      }
+    }
+    );
+    gsap.fromTo('.footerDiv1', {
+      opacity: 0,
+      x: -150,
+   
+    },
+    {
+      opacity: 100,
+      x: 0,
+      duration: 0.6,
+      scrollTrigger: {
+        trigger: ".footerDiv1", 
+        start: "top 100%",
+        end: "bottom 90%",
+        scrub: 2
+      }
+    }
+  )
   }, []);
 
   return (
@@ -133,6 +189,8 @@ export const MainPages = () => {
       <div className="overflow-hidden">
         <PageOne />
         <ServicePage />
+        <Page3/>
+        <Footer/>
       </div>
     </>
   );
